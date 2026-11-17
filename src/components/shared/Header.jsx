@@ -13,11 +13,11 @@ import MobileNavigation from "./mobile-navigation";
 import ThemeToggle from "../theme/theme-toggle";
 
 const navigation = [
-  { label: "Find a Doctor", href: "#doctors", active: true },
-  { label: "Departments", href: "#departments" },
-  { label: "Services", href: "#services" },
-  { label: "Patient Portal", href: "#portals" },
-  { label: "Doctor Portal", href: "#portals" },
+  { label: "Find a Doctor", href: "doctors", active: true },
+  { label: "Departments", href: "departments" },
+  { label: "Services", href: "services" },
+  { label: "Patient Portal", href: "portals" },
+  { label: "Doctor Portal", href: "portals" },
 ];
 
 export default function Header() {
