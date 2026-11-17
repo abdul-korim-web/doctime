@@ -2,6 +2,7 @@
 import "./globals.css";
 import ThemeProvider from "@/components/theme/theme-provider";
 import Header from './../components/shared/Header';
+import Footer from "@/components/shared/Footer";
 
 export const metadata = {
   title: "DocTime | Health Network",
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
           <main className="min-h-screen pt-36 md:pt-32">
             {children}
           </main>
+          <Footer/>
         </ThemeProvider>
       </body>
     </html>
