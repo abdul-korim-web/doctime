@@ -4,6 +4,7 @@ import PortalSection from './PortalSection'
 import ClinicalDepartments from './ClinicalDepartments'
 import LeadingPhysicians from './LeadingPhysicians'
 import HospitalCapabilities from './HospitalCapabilities'
+import PatientTestimonials from './PatientTestimonials'
 
 export default function HomeLayout() {
   return (
@@ -13,6 +14,7 @@ export default function HomeLayout() {
         <ClinicalDepartments/>
         <LeadingPhysicians/>
         <HospitalCapabilities/>
+        <PatientTestimonials/>
     </div>
   )
 }
